@@ -14,7 +14,7 @@
 
 <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
+      <!-- <h3 class="masthead-brand">Cover</h3> -->
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="index.md">Capture</a>
         <a class="nav-link" href="review.md">Review</a>
