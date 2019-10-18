@@ -16,7 +16,7 @@
     <div class="inner">
       <!-- <h3 class="masthead-brand">Cover</h3> -->
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="index.md">Capture</a>
+        <a class="nav-link" href="index.html">Capture</a>
         <a class="nav-link active" href="review.html">Review</a>
       </nav>
     </div>
