@@ -12,8 +12,8 @@
     <title>ISLA</title>
   </head>
   <body>
-    <div class="cover-container d-flex w-150 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
+    <div class="cover-container d-flex w-90% h-100 p-3 mx-auto flex-column">
+<!--       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">ISLA</h3>
           <nav class="nav nav-masthead justify-content-center">
@@ -22,7 +22,7 @@
             <a class="nav-link" href="#">Contact</a>
           </nav>
         </div>
-      </header>
+      </header> -->
 
       <main role="main" class="cover">
         <!-- <h1 class="cover-heading">Cover your page.</h1>
