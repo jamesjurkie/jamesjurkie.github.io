@@ -140,3 +140,7 @@ body {
   font-weight: bold
 }
 
+.nav-item{
+  background-color: rgba(86, 61, 124, .15);
+  padding-bottom: 10px
+}
