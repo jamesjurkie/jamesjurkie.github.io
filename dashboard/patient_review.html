@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel = "stylesheet" type = "text/css" href = "cover.css" >
+    <link rel = "stylesheet" type = "text/css" href = "general.css" >
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
@@ -24,7 +25,7 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
     <a class="navbar-brand" href="https://islacare.co.uk">
-    <img src="wirral-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">   
+    <img src="../Images/nhs-logo.png" height="30" class="d-inline-block align-top" alt="">   
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +35,13 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Capture<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="review.html">Review</a>
+          <a class="nav-link" href="review_all.html">Patients</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Client log in</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Help</a>
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Help</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="#">Call us</a>
             <a class="dropdown-item" href="#">Email us</a>
@@ -60,79 +58,36 @@
 
   <main role="main">
 
-   <div class="container">
-    <div class = "jumbotron"> 
-      <div class = "container-primary">
-
-        <h1>Patient review</h1>
-        <p class="lead">Select a patient below to review their visual record</p>
-    
-
-        <h2 class="mt-4">Patients</h2>
-        <p>All data below is for example only. No patient data is stored within this demo application and some functionality is left disabled.</p>
+    <div class="container">
+      <div class = "jumbotron"> 
+        <div class = "container-primary">
+          <h1>Alex Albert</h1>
+          <p class="lead">Visual patient record</p>
+        </div>
       </div>
+
+  <div class="album py-1 bg-light">
+    <div class="container">
+
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shrqOkp5haZ6MKgoM?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
     </div>
-
-    
-    <ul class="nav nav-tabs">
-      <li class="nav-item nav-tab">
-        <a class="nav-link" href="review.html">Review required (1)</a>
-      </li>
-      <li class="nav-item nav-tab">
-        <a class="nav-link" href="review_updated.html">Recently updated (2)</a>
-      </li>
-      <li class="nav-item nav-tab">
-        <a class="nav-link active" href="review_all.html">All (4)</a>
-      </li>
-    </ul>
-
-    <div class="row mb-3 row-header">
-      <div class="col-4 themed-grid-col">NHS Number</div>
-      <div class="col-4 themed-grid-col">Patient Name</div>
-      <div class="col-4 themed-grid-col">Most recent submission</div>
-    </div>
-
-    <a class="row-link" href="123456.html">
-      <div class="row mb-3">
-        <div class="col-4 themed-grid-col">123456</div>
-        <div class="col-4 themed-grid-col">James Jurkiewicz</div>
-        <div class="col-4 themed-grid-col">Tuesday, 22nd October</div>
-      </div>
-    </a>
-
-    <a class="row-link" href="234567.html">
-      <div class="row mb-3">
-        <div class="col-4 themed-grid-col">234567</div>
-        <div class="col-4 themed-grid-col">Peter Hansell</div>
-        <div class="col-4 themed-grid-col">Tuesday, 22nd October</div>
-      </div>
-    </a>
-
-    <a class="row-link" href="345678.html">
-      <div class="row mb-3">
-        <div class="col-4 themed-grid-col">345678</div>
-        <div class="col-4 themed-grid-col">Jayne Marshall</div>
-        <div class="col-4 themed-grid-col">Tuesday, 22nd October</div>
-      </div>
-    </a>
-
-    <a href="456789.html">
-      <div class="row mb-3">
-        <div class="col-4 themed-grid-col">456789</div>
-        <div class="col-4 themed-grid-col">Donna Locke</div>
-        <div class="col-4 themed-grid-col">Tuesday, 22nd October</div>
-      </div>
-    </a>
   </div>
 
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-           <p>Powered by <a class="navbar-brand" href="https://islacare.co.uk">
-              <img src="Isla_Logo_Full.png" width="35" height="20" class="d-inline-block" alt=""> </a>
+    <footer class="text-muted">
+      <div class="container">
+        <div class="float-right">
+          <p>Powered by  
+            <a href="https://islacare.co.uk">
+            <img class="footer-image" src="../images/Isla_Logo_Full.png" width="35" height="20" class="d-inline-block" alt=""> 
+            </a>
+          </p>
       </div>
     </footer>
 
   </main>
+
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -140,3 +95,5 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
+
+

@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel = "stylesheet" type = "text/css" href = "cover.css" >
+    <link rel = "stylesheet" type = "text/css" href = "general.css" >
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>ISLA demo</title>
+  </head>
+
+  
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+    <a class="navbar-brand" href="https://islacare.co.uk">
+    <img src="../Images/nhs-logo.png" height="30" class="d-inline-block align-top" alt="">   
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="review_all.html">Patients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Client log in</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Help</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Call us</a>
+            <a class="dropdown-item" href="#">Email us</a>
+            <a class="dropdown-item" href="#">Live chat us</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <div class="container">
+      <div class = "jumbotron"> 
+        <div class = "container-primary">
+          <h1>Welcome back, Emma!</h1>
+          <p class="lead">Review the patients below to select an action</p>
+        </div>
+      </div>
+
+      <div class= "patient-table">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Patient name</th>
+              <th scope="col">Latest Update</th>
+              <th scope="col">Type</th>
+              <th scope="col">Action</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alex Albert</td>
+              <td>Today</td>
+              <td>Update</td>
+              <td>
+                <a href="patient_review.html">
+                  <button type="button" class="btn btn-primary">Review</button>
+                </a>
+              </td>
+              <td>
+                <a href="#.html">
+                  <button type="button" class="btn btn-secondary">Share</button>
+                </a>
+              </td>            
+            </tr>
+            <tr>
+              <td>Betty Borg</td>
+              <td>2 days ago</td>
+              <td>Update</td>
+              <td>
+                <button type="button sm" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button sm" class="btn btn-secondary" disabled>Share</button>
+              </td>            
+            </tr>
+            <tr>
+              <td>Charlie Curtis</td>
+              <td>2 days ago</td>
+              <td>Concern</td>
+              <td>
+                <button type="button" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-secondary" disabled>Share</button>
+              </td>            
+            </tr>
+            <tr>
+              <td>Deb DeGrey</td>
+              <td>3 days ago</td>
+              <td>Update</td>
+              <td>
+                <button type="button" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-secondary" disabled>Share</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="text-muted">
+      <div class="container">
+        <div class="float-right">
+          <p>Powered by  
+            <a href="https://islacare.co.uk">
+            <img class="footer-image" src="../images/Isla_Logo_Full.png" width="35" height="20" class="d-inline-block" alt=""> 
+            </a>
+          </p>
+      </div>
+    </footer>
+
+  </main>
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
+
+
