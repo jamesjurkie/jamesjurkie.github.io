@@ -65,27 +65,61 @@
             <div class="col-4">
               <h1>Alex Albert</h1>
               <p class="lead">Visual patient record</p>
-              <a href="patient_action.html">
-                <button type="button" class="btn btn-success action-button">Action</button>
+              <a href="patient_review.html">
+                <button type="button" class="btn btn-success action-button active">Action</button>
               </a>
             </div>
-            <div class="col-4">
-              <div class="patient-information-headings">
-               <h6>Date of birth:</h6>
-               <h6>Registered GP:</h6>
-               <h6>NHS number:</h6>
-               <h6>MRN number:</h6>
-               <h6>Next of kin:</h6>
-             </div>
-           </div>
-           <div class="col-4">
-              <div class="patient-information">
-               <h6>6th February 1949</h6>
-               <h6>Dr Emily Dookun</h6>
-               <h6>123456789</h6>
-               <h6>234567890</h6>
-               <h6>Daughter: Alisha Smith</h6>
-             </div>
+            <div class="col-8">
+              <div class="accordion action-accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        No immediate concern
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <button type="button" class="btn btn-dark patient-action-button">Email submitter</button>
+                      <button type="button" class="btn btn-dark patient-action-button">Send patient SMS</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ongoing management
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <button type="button" class="btn btn-dark patient-action-button">Request additional image</button>
+                      <button type="button" class="btn btn-dark patient-action-button">Organise Face to Face</button>
+                      <button type="button" class="btn btn-dark patient-action-button">Organise Skype</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Escalation
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a href="mailto:isla-example@NHS.net?Subject=Visual%20record%20of%20Alex%20Albert&body=Hi Example, Please help me in reviewing Alex Albert's visual patient record, link here: https://jamesjurkie.github.io/dashboard/patient_review.html" target="_top">
+                        <button type="button" class="btn btn-dark patient-action-button">Share case via email</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

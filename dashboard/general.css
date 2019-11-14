@@ -29,3 +29,28 @@ body {
 	width: 90%;
 	margin-left: 5%;
 }
+
+.action-button{
+	float:left;
+	border-top: 10px;
+}
+
+.patient-information-headings{
+	text-align: right;
+	font-style: italic;
+}
+
+.patient-information{
+	text-align: left;
+}
+
+.action-accordion{
+	background-color: #005EB8
+}
+
+.patient-action-button{
+	float: right;
+	background-color: grey;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}

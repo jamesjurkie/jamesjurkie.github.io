@@ -34,7 +34,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="review_all.html">Patients</a>
         </li>
         <li class="nav-item">
@@ -61,45 +61,75 @@
     <div class="container">
       <div class = "jumbotron"> 
         <div class = "container-primary">
-          <div class="row">
-            <div class="col-4">
-              <h1>Alex Albert</h1>
-              <p class="lead">Visual patient record</p>
-              <a href="patient_action.html">
-                <button type="button" class="btn btn-success action-button">Action</button>
-              </a>
-            </div>
-            <div class="col-4">
-              <div class="patient-information-headings">
-               <h6>Date of birth:</h6>
-               <h6>Registered GP:</h6>
-               <h6>NHS number:</h6>
-               <h6>MRN number:</h6>
-               <h6>Next of kin:</h6>
-             </div>
-           </div>
-           <div class="col-4">
-              <div class="patient-information">
-               <h6>6th February 1949</h6>
-               <h6>Dr Emily Dookun</h6>
-               <h6>123456789</h6>
-               <h6>234567890</h6>
-               <h6>Daughter: Alisha Smith</h6>
-             </div>
-            </div>
-          </div>
+          <h1>Welcome back, Emma!</h1>
+          <p class="lead">Review the patients below and select an action</p>
         </div>
       </div>
+
+      <div class= "patient-table">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Patient name</th>
+              <th scope="col">Latest Update</th>
+              <th scope="col">Type</th>
+              <th scope="col">Action</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alex Albert</td>
+              <td>Today</td>
+              <td>Update</td>
+              <td>
+                <a href="patient_review.html">
+                  <button type="button" class="btn btn-primary">Review</button>
+                </a>
+              </td>
+              <td>
+                <a href="mailto:isla-example@NHS.net?Subject=Visual%20record%20of%20Alex%20Albert&body=Hi Example, Please help me in reviewing Alex Albert's visual patient record, link here: https://jamesjurkie.github.io/dashboard/patient_review.html" target="_top">
+                  <button type="button" class="btn btn-secondary">Share</button>
+                </a>
+              </td>            
+            </tr>
+            <tr>
+              <td>Betty Borg</td>
+              <td>2 days ago</td>
+              <td>Update</td>
+              <td>
+                <button type="button sm" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button sm" class="btn btn-secondary" disabled>Share</button>
+              </td>            
+            </tr>
+            <tr>
+              <td>Charlie Curtis</td>
+              <td>2 days ago</td>
+              <td>Concern</td>
+              <td>
+                <button type="button" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-secondary" disabled>Share</button>
+              </td>            
+            </tr>
+            <tr>
+              <td>Deb DeGrey</td>
+              <td>3 days ago</td>
+              <td>Update</td>
+              <td>
+                <button type="button" class="btn btn-primary" disabled>Review</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-secondary" disabled>Share</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
-  <div class="album py-1 bg-light">
-    <div class="container">
-
-      <iframe class="airtable-embed" src="https://airtable.com/embed/shrqOkp5haZ6MKgoM?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
-
-    </div>
-  </div>
 
     <footer class="text-muted">
       <div class="container">
