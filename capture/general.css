@@ -19,3 +19,8 @@ body {
 .capture-form {
 	padding-top: 20px;
 }
+
+.return-button {
+	float: right;
+	margin-top: 10px;
+}
