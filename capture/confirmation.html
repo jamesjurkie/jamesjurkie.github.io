@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel = "stylesheet" type = "text/css" href = "cover.css" >
-  <link rel = "stylesheet" type = "text/css" href = "sign-in.css" >
+  <link rel = "stylesheet" type = "text/css" href = "general.css">
+  <link rel = "stylesheet" type = "text/css" href = "capture-form.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
@@ -23,26 +24,22 @@
   </head>
 
   <body>
-    <div class="form-signin">
-      <img class="mb-4" src="../images/nhs-logo.png" alt="" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="demo@nhs.net" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      </div>
-    <a href="review_all.html">
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </a>  
-    <p class="mt-5 mb-3 text-muted">&copy; 2019 ISLAcare</p>
-  </div>
-</body>
 
-  
+    <div class="container">
+
+      <h1>Thanks for your submission</h1>
+      <p class="lead">The image has been added to the patient record, and a notification sent to the triage team</p>
+
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shregSeINpYyGvFhy?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+      <a href="case_load.html">
+        <button type="button" class="btn btn-primary">Back to case load</button>
+      </a>
+
+    </div>
+
+  </body>
+
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -50,3 +47,5 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
+
+
