@@ -23,3 +23,12 @@ body {
 .return-button {
 	margin-top: 20px;
 }
+
+.cc-card {
+	background: grey;
+	padding: 20px;
+}
+
+.cc-button {
+	float: right;
+}
